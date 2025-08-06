@@ -1,0 +1,1 @@
+c=str(input("enter the string"));
