@@ -1,0 +1,22 @@
+list = [1, 2, 3, 4]
+print(list) 
+
+list.append(5)
+print("Updated List : ",list)
+
+print("list length=",len(list))
+
+list.insert(0, 7)
+print("New List: ",list)
+
+print("list after remove() fuction",list.remove(2))
+print(list)
+
+print("poping the element ",list.pop(0))
+oldlist=print(list)
+
+
+print("list after using clear() function")
+newlist = list.clear()
+print(newlist)
+
